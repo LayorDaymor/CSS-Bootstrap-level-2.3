@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h1{
+    
+        margin-right: 0;
+        margin-top: 1vw ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .row{
+        justify-content: ;
+    }
+  
+
+
+    ul {
+          list-style-type: none;
+          list-style: none;
+      }
+      .lead{
+          font-family: Arial, Helvetica, sans-serif;;
+      }
+      .pink, ul li a {
+          
+          color: #c6007e;
+      }
+      .container {
+          max-width: 1380px;
+        
+      }
+      a, p, .btn {
+          font-size: 12px;
+      }
+      P{
+          margin: 0;
+      }
+      .la-times{
+        font-size: 2vw;
+        margin-left: 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+      }
+ 
+  </style>
+    
+<title>Title</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top  shadow p-0">
+        <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" class="p-0 mr-0" href="#">
+        <img src="https://wizzair.com/static/static_fe/assets/images/cms/wizz-logo--white_$e5edffeb$.svg" alt="wizzair" />
+        </a>
+        <div id="navbarResponsive">
+        <ul class="navbar-nav mr-0 p-2">
+            <li class="nav-item text-nowrap dropdown border-right border-info">
+                <a href="Planen-menu" class="btn btn-primary dropdown-toggle "data-toggle="dropdown"role="button"aria-haspopup="true"aria-expanded="false">PLANEN</a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="Planen-menu">Planen1</a>
+        <a class="dropdown-item" href="Planen-menu">Planen2</a>
+        <a class="dropdown-item" href="Planen-menu">Planen3</a>
+        <a class="dropdown-item" href="Planen-menu">Planen4</a>
+        </div>
+        </li>
+<!-- Hinweis -->
+<li class="nav-item active border-right border-info">
+    <a href="#demo" class="btn btn-primary text-uppercase dropdown-toggle" data-toggle="collapse">hinweis</a>
+   </li>
+        
+        <!-- Check-in & Buchungen -->
+        <li class="navbar-item">
+        <a class="text-white nav-link border-right border-info" href="#">CHECK-IN & BUCHUNGEN</a>
+        </li>
+        <!-- Anmelden -->
+        <!-- Sprache -->
+        <li class="navbar-item text-nowrap dropdown">
+            <a href="#Sprache-menu" class="nav-link dropdown-toggle text-white" data-toggle="dropdown"role="button" aria-haspopup="true" aria-expanded="false"><i class="lab la-font-awesome-flag"></i>DEUTSCH</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item " href="Sprache-menu">Englich</a>
+                <a class="dropdown-item " href="Sprache-menu">Arabic</a>
+                <a class="dropdown-item " href="Sprache-menu">France</a>
+                <a class="dropdown-item " href="Sprache-menu">Spain</a>
+            </div>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+        </header>
+        <div class="container">
+        <div id="demo" class="collapse">
+            
+              <h1 class="text-primary font-weight-bold " >INFORMATIONEN & SERVICES</h1>
+              <form action="#" class="form-group">
+                <input class="form-control col-2" type="text" placeholder="Suchen..." name="search">
+                <i class="las la-times font-weight-bold text-danger" href="#demo" data-toggle="collapse"></i>
+              </form>
+           
+              <!-- Erste Row von Hinweis -->
+              <div class="row">
+         <!-- Buchungsdaten -->
+                    <div class="col-md-3 col-sm-6  ">
+                    <ul>
+                        <li><p class="lead font-weight-bold">Buchungsdaten</p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold"> Preise und Ermässigung</p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold"> Wizz serviceleistungen </p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold"> Über uns</p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                  <ul>
+                    <li><p class="lead font-weight-bold">Investor Relations</p></li>
+                    <li><a href="#">Informationen zur Buchung</a></li>
+                    <li><a href="#">Kinder und Kleinkinder</a></li>
+                    <li><a href="#">Zahlungen</a></li>
+                    <li><a href="#">Check-in und Boarding</a></li>
+                    <li><a href="#">Änderungen an der Buchung</a></li>
+                    <li><a href="#">Gruppenbuchungen</a></li>
+                    <li><a href="#">Mobile</a></li>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold"> Reiseinformation </p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold">Flugstatus</p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                  </ul>
+                  <ul>
+                    <li><p class="lead font-weight-bold">Fragen und Antworten</p></li>
+                    <li><a href="#">Informationen zur Buchung</a></li>
+              </ul>
+                </div>
+                <div class="col-md-3 col-sm-6  ">
+                    <ul>
+                        <li><p class="lead font-weight-bold"> Partnerserviceleistungen </p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                        <li><a href="#">Änderungen an der Buchung</a></li>
+                        <li><a href="#">Gruppenbuchungen</a></li>
+                        <li><a href="#">Mobile</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <ul>
+                        <li><p class="lead font-weight-bold">Career</p></li>
+                        <li><a href="#">Informationen zur Buchung</a></li>
+                        <li><a href="#">Kinder und Kleinkinder</a></li>
+                        <li><a href="#">Zahlungen</a></li>
+                        <li><a href="#">Check-in und Boarding</a></li>
+                  </ul>
+                  <ul>
+                    <li><p class="lead font-weight-bold">KONTAKT</p></li>
+                    <li><a href="#">Informationen zur Buchung</a></li>
+              </ul>
+                </div>
+        </div>
+     </div>
+     
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
